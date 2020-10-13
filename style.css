@@ -1,0 +1,119 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    background: #202020;   
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    padding: 20px;
+    color: #FAAE2F; 
+}
+h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #5a5a5a;    
+}
+.main {
+    box-sizing: border-box;
+    margin-right: 15%;
+    margin-left: 12%;
+    height: 70vh;
+}
+form {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 40px;
+    color: #5a5a5a;
+}
+#txt {
+    width: 91.5%;
+    padding: 5px;
+}
+.flex {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#dt{
+    width: 41%;
+    padding: 4px;
+}
+#prc{
+    width: 44%;
+    padding: 5px;
+}
+.btn {
+    text-align: center;
+}
+#btn {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 8px;
+    margin-bottom: 40px;
+    color: #000000;
+    background: #FAAE2F;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+#btn:hover {
+    letter-spacing: 2px;
+    background: #5a5a5a;
+    transition: 0.3s;
+    color: #ffffff;
+}
+.tabletxt {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 0px;
+}
+.box {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+h3 {
+    width: 380px;
+    border-bottom: 1px solid #686868;
+    padding: 5px;
+    font-size: 16px;
+    color: #b4b4b4;
+}
+p {
+    width: 390px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #5a5a5a;
+    padding: 10px;
+    font-size: 14px;
+    background: #1b1b1b;
+    color: #ffffff;
+}
+input{
+    background: #272727;
+    outline: none;
+    border: none;
+    color: white;
+}
+input:focus {
+    border-bottom: 1px solid#FAAE2F;
+    transition: all ease 0.5s;
+}
+button{
+    position: absolute;
+    left: 87%;
+    width: 23px;
+    color: rgb(255, 0, 0);
+    outline: none;
+    border:1px solid red;
+    background: #202020;
+    cursor: pointer;
+}
